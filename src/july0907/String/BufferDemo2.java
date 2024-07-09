@@ -6,11 +6,11 @@ public class BufferDemo2 {
 			 			//   012345678910
 		StringBuffer tt = new StringBuffer ("Hello World") ;
 		
-		
+		System.out.println("Original String:- "+tt);
 		tt.replace(5, 6, " Beautiful ") ;
 		
 		
-		System.out.println(tt);
+		System.out.println("After Replace:- "+tt);
 	}
 
 }
